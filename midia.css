@@ -7,5 +7,21 @@
     Notebooks: 992px até 1200px
     Grandes telas: acima de 1200px
 */
-/* Tamanho de*/
-@media screen
+/* Tamanho de tablets*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+    section.coluna{
+        flex: 1 1 50%;
+    }
+}
+/* Tamanho de celulares*/
+@media screen and (min-width: 600px) and (max-width: 768px){
+    section.coluna{
+        flex: 1 1 25%;
+    }
+}
+/* Tamanho de Ipad*/
+@media screen and (min-width: 992px){
+    section.coluna{
+        flex: 1 1 25%;
+    }
+}
